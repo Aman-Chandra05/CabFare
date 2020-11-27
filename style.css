@@ -1,0 +1,49 @@
+#content{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("pics/background.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#citytaxi{
+    border: 1px solid #ffc107;
+	border-radius: 25px;
+	background-color: #ffc107;
+}
+
+select {
+	/* for Firefox */
+	-moz-appearance: none;
+	/* for Chrome */
+	-webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  select::-ms-expand {
+	display: none;
+  }
+  #pickup,#drop,#cab,#luggage{
+	background-color: #e9ecefed;
+  }
+  
+  .errmsg
+  {
+	color: red;
+	font-size: small;
+  }
+ nav
+ {
+ 	background-color: #ffc107;
+
+ }
+ #footer
+ {
+ 	background-color: #ffc107;
+ }
+ img
+ {
+ 	width:50px; 
+ 	height:50px;
+ }
+ table{
+ 	width:100%;
+ }

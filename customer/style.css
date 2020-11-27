@@ -1,0 +1,53 @@
+ #header h1
+ {
+ 	text-align: center;
+ 	font-size: xx-large;
+ }
+#header
+{
+	overflow: hidden;
+}
+ img
+ {
+ 	width:60px; 
+ 	height:50px;
+ 	float: left;
+ }
+section{
+	margin-top: 10px;
+}
+  nav
+ {
+ 	background-color: #ffc107;
+
+ }
+#content{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../pics/background.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+select {
+	/* for Firefox */
+	-moz-appearance: none;
+	/* for Chrome */
+	-webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  select::-ms-expand {
+	display: none;
+  }
+  #pickup,#drop,#cab,#luggage{
+	background-color: #e9ecefed;
+  }
+
+    .errmsg
+  {
+	color: red;
+	font-size: small;
+  }
+   #footer
+ {
+ 	background-color: #ffc107;
+ }
